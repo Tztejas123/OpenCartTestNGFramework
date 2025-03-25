@@ -1,0 +1,130 @@
+10:59:58.200 [main] INFO  - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+10:59:58.429 [main] INFO  - Exporting webdriver.chrome.driver as C:\Users\tztej\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+11:00:05.624 [main] INFO  - Starting TC_002_LoginTest
+11:00:09.031 [main] INFO  -  Finished TC_002_LoginTest
+11:02:22.900 [main] INFO  - [TestNG] Running:
+  E:\JavawithAutomation\opencartPracticeTestNGHybridDay5HAddExternalReports\crossbrowsertests.xml
+
+11:02:25.108 [TestNG-tests-1] INFO  - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+11:02:25.336 [TestNG-tests-1] INFO  - Exporting webdriver.chrome.driver as C:\Users\tztej\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+11:02:29.784 [TestNG-tests-2] INFO  - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+11:02:29.816 [TestNG-tests-2] INFO  - Exporting webdriver.edge.driver as C:\Users\tztej\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+11:02:48.542 [TestNG-tests-1] INFO  - Strating TC_001_AccountRegistrationtTest
+11:02:49.797 [TestNG-tests-1] INFO  - Clicked on My Account 
+11:02:50.865 [TestNG-tests-1] INFO  - Clicked on Register 
+11:02:52.781 [TestNG-tests-1] INFO  - Provided First Name 
+11:02:52.934 [TestNG-tests-1] INFO  - Provided Last Name 
+11:02:53.072 [TestNG-tests-1] INFO  - Provided Email 
+11:02:53.234 [TestNG-tests-1] INFO  - Provided Telephone 
+11:02:53.438 [TestNG-tests-1] INFO  - Provided Password 
+11:02:53.544 [TestNG-tests-1] INFO  - Provided Confrmed Password 
+11:02:53.684 [TestNG-tests-1] INFO  - Set Privacy Policy 
+11:02:55.536 [TestNG-tests-1] INFO  - Clicked on Continue 
+11:02:57.488 [TestNG-tests-2] INFO  - Strating TC_001_AccountRegistrationtTest
+11:02:57.779 [TestNG-tests-1] INFO  - Finished TC_001_AccountRegistrationtTest
+11:02:58.082 [TestNG-tests-2] INFO  - Clicked on My Account 
+11:24:09.116 [main] INFO  - [TestNG] Running:
+  E:\JavawithAutomation\opencartPracticeTestNGHybridDay5HAddExternalReports\crossbrowsertests.xml
+
+11:24:12.140 [TestNG-tests-2] INFO  - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+11:24:12.140 [TestNG-tests-1] INFO  - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+11:24:12.304 [TestNG-tests-2] INFO  - Exporting webdriver.edge.driver as C:\Users\tztej\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+11:24:12.306 [TestNG-tests-1] INFO  - Exporting webdriver.chrome.driver as C:\Users\tztej\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+11:24:25.669 [TestNG-tests-1] INFO  - Strating TC_001_AccountRegistrationtTest
+11:24:26.151 [TestNG-tests-1] INFO  - Clicked on My Account 
+11:24:27.680 [TestNG-tests-1] INFO  - Clicked on Register 
+11:24:30.225 [TestNG-tests-1] INFO  - Provided First Name 
+11:24:30.345 [TestNG-tests-1] INFO  - Provided Last Name 
+11:24:30.518 [TestNG-tests-1] INFO  - Provided Email 
+11:24:30.694 [TestNG-tests-1] INFO  - Provided Telephone 
+11:24:30.832 [TestNG-tests-1] INFO  - Provided Password 
+11:24:30.953 [TestNG-tests-1] INFO  - Provided Confrmed Password 
+11:24:31.134 [TestNG-tests-1] INFO  - Set Privacy Policy 
+11:24:33.070 [TestNG-tests-1] INFO  - Clicked on Continue 
+11:24:34.945 [TestNG-tests-2] INFO  - Strating TC_001_AccountRegistrationtTest
+11:24:35.431 [TestNG-tests-1] INFO  - Finished TC_001_AccountRegistrationtTest
+11:24:35.989 [TestNG-tests-2] INFO  - Clicked on My Account 
+11:30:17.874 [main] INFO  - [TestNG] Running:
+  E:\JavawithAutomation\opencartPracticeTestNGHybridDay5HAddExternalReports\grouping.xml
+
+11:30:20.351 [main] INFO  - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+11:30:20.432 [main] INFO  - Exporting webdriver.chrome.driver as C:\Users\tztej\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+11:30:33.882 [main] INFO  - Strating TC_001_AccountRegistrationtTest
+11:30:34.668 [main] INFO  - Clicked on My Account 
+11:30:36.743 [main] INFO  - Clicked on Register 
+11:30:37.541 [main] INFO  - Provided First Name 
+11:30:37.661 [main] INFO  - Provided Last Name 
+11:30:37.956 [main] INFO  - Provided Email 
+11:30:38.053 [main] INFO  - Provided Telephone 
+11:30:38.161 [main] INFO  - Provided Password 
+11:30:38.264 [main] INFO  - Provided Confrmed Password 
+11:30:38.418 [main] INFO  - Set Privacy Policy 
+11:30:40.209 [main] INFO  - Clicked on Continue 
+11:30:42.278 [main] INFO  - Finished TC_001_AccountRegistrationtTest
+11:30:43.450 [main] INFO  - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+11:30:43.480 [main] INFO  - Exporting webdriver.chrome.driver as C:\Users\tztej\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+11:30:50.897 [main] INFO  - Starting TC_002_LoginTest
+11:32:02.467 [main] INFO  - [TestNG] Running:
+  E:\JavawithAutomation\opencartPracticeTestNGHybridDay5HAddExternalReports\grouping.xml
+
+11:32:06.903 [main] INFO  - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+11:32:06.962 [main] INFO  - Exporting webdriver.chrome.driver as C:\Users\tztej\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+11:32:17.333 [main] INFO  - Strating TC_001_AccountRegistrationtTest
+11:32:19.046 [main] INFO  - Clicked on My Account 
+11:32:20.739 [main] INFO  - Clicked on Register 
+11:32:21.251 [main] INFO  - Provided First Name 
+11:32:21.432 [main] INFO  - Provided Last Name 
+11:32:21.643 [main] INFO  - Provided Email 
+11:32:21.787 [main] INFO  - Provided Telephone 
+11:32:21.946 [main] INFO  - Provided Password 
+11:32:22.064 [main] INFO  - Provided Confrmed Password 
+11:32:22.264 [main] INFO  - Set Privacy Policy 
+11:32:25.013 [main] INFO  - Clicked on Continue 
+11:32:27.191 [main] INFO  - Finished TC_001_AccountRegistrationtTest
+11:32:27.830 [main] INFO  - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+11:32:27.892 [main] INFO  - Exporting webdriver.chrome.driver as C:\Users\tztej\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+11:32:35.076 [main] INFO  - Starting TC_002_LoginTest
+11:32:39.797 [main] INFO  -  Finished TC_002_LoginTest
+12:17:09.090 [main] INFO  - [TestNG] Running:
+  E:\JavawithAutomation\opencartPracticeTestNGHybridDay5HAddExternalReports\test-output\testng-failed.xml
+
+12:17:10.366 [main] INFO  - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+12:17:10.437 [main] INFO  - Exporting webdriver.chrome.driver as C:\Users\tztej\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+12:17:19.083 [main] INFO  - Starting TC_002_LoginTest
+12:17:22.507 [main] INFO  -  Finished TC_002_LoginTest
+16:33:42.700 [main] INFO  - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+16:33:42.796 [main] INFO  - Exporting webdriver.chrome.driver as C:\Users\tztej\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+16:33:55.380 [main] INFO  - **** Starting TC_003_LoginDDT *****
+16:34:07.840 [main] INFO  - **** Finished TC_003_LoginDDT *****
+16:34:07.850 [main] INFO  - **** Starting TC_003_LoginDDT *****
+16:34:11.668 [main] INFO  - **** Starting TC_003_LoginDDT *****
+16:34:14.310 [main] INFO  - **** Starting TC_003_LoginDDT *****
+16:34:26.425 [main] INFO  - **** Finished TC_003_LoginDDT *****
+16:34:26.427 [main] INFO  - **** Starting TC_003_LoginDDT *****
+16:34:29.542 [main] INFO  - **** Finished TC_003_LoginDDT *****
+16:34:29.544 [main] INFO  - **** Starting TC_003_LoginDDT *****
+16:34:32.205 [main] INFO  - **** Finished TC_003_LoginDDT *****
+16:38:05.550 [main] INFO  - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+16:38:05.601 [main] INFO  - Exporting webdriver.chrome.driver as C:\Users\tztej\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+16:38:14.610 [main] INFO  - **** Starting TC_003_LoginDDT *****
+16:38:27.350 [main] INFO  - **** Finished TC_003_LoginDDT *****
+16:38:27.362 [main] INFO  - **** Starting TC_003_LoginDDT *****
+16:38:30.569 [main] INFO  - **** Starting TC_003_LoginDDT *****
+16:38:33.250 [main] INFO  - **** Starting TC_003_LoginDDT *****
+16:38:44.662 [main] INFO  - **** Finished TC_003_LoginDDT *****
+16:38:44.664 [main] INFO  - **** Starting TC_003_LoginDDT *****
+16:38:47.205 [main] INFO  - **** Finished TC_003_LoginDDT *****
+16:38:47.211 [main] INFO  - **** Starting TC_003_LoginDDT *****
+16:38:50.056 [main] INFO  - **** Finished TC_003_LoginDDT *****
+17:15:33.486 [main] INFO  - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+17:15:33.571 [main] INFO  - Exporting webdriver.chrome.driver as C:\Users\tztej\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+17:15:43.893 [main] INFO  - **** Starting TC_003_LoginDDT *****
+17:15:56.437 [main] INFO  - **** Finished TC_003_LoginDDT *****
+17:15:56.446 [main] INFO  - **** Starting TC_003_LoginDDT *****
+17:15:59.980 [main] INFO  - **** Starting TC_003_LoginDDT *****
+17:16:03.599 [main] INFO  - **** Starting TC_003_LoginDDT *****
+17:16:16.180 [main] INFO  - **** Finished TC_003_LoginDDT *****
+17:16:16.183 [main] INFO  - **** Starting TC_003_LoginDDT *****
+17:16:19.123 [main] INFO  - **** Finished TC_003_LoginDDT *****
+17:16:19.127 [main] INFO  - **** Starting TC_003_LoginDDT *****
+17:16:21.503 [main] INFO  - **** Finished TC_003_LoginDDT *****
