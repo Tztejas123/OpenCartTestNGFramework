@@ -1,3 +1,16 @@
+Project Context & Business Impact
+This framework was originally designed as a Proof of Concept (POC) for a client to demonstrate the ROI of Test Automation on a complex e-commerce platform. 
+The Challenge
+•	The client faced bottlenecks with manual testing on OpenCart, specifically:
+•	Complex Business Logic: Validating dynamic cart calculations, Guest vs. User Checkout, and Order History.
+•	Unstable Elements: Handling dynamic dropdowns and AJAX loaders that caused flaky tests.
+•	Scalability: The need to validate flows across multiple data sets (Login, Registration) without rewriting code.
+ The Solution & Outcome
+•	I architected this Hybrid Framework (TDD + Data-Driven) to simulate a real-world enterprise environment.
+•	Outcome: The POC successfully demonstrated stability and became the foundation for the full-scale project.
+Impact: Reduced manual regression execution time by 40%.
+Visibility: Provided stakeholders with clear Pass/Fail metrics via Extent Reports, eliminating communication gaps.
+
  OpenCart Hybrid Test Automation Framework 
 •	[Java](https://img.shields.io/badge/Language-Java-orange)
 •	[Selenium](https://img.shields.io/badge/Tool-Selenium_WebDriver-blue)
