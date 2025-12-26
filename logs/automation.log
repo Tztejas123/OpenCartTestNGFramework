@@ -128,3 +128,78 @@
 17:16:19.123 [main] INFO  - **** Finished TC_003_LoginDDT *****
 17:16:19.127 [main] INFO  - **** Starting TC_003_LoginDDT *****
 17:16:21.503 [main] INFO  - **** Finished TC_003_LoginDDT *****
+12:39:14.724 [main] INFO  - [TestNG] Running:
+  E:\JavawithAutomation\OpenCartTestNGFramework\master.xml
+
+12:39:28.414 [main] INFO  - Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+12:39:29.169 [main] INFO  - Downloading https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.119/win64/chromedriver-win64.zip
+12:39:41.785 [main] INFO  - Extracting driver from compressed file chromedriver-win64.zip
+12:39:42.389 [main] INFO  - Exporting webdriver.chrome.driver as C:\Users\tztej\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+12:40:29.442 [main] INFO  - **** Starting TC_003_LoginDDT *****
+12:41:07.119 [main] INFO  - **** Starting TC_003_LoginDDT *****
+12:41:08.128 [main] INFO  - **** Starting TC_003_LoginDDT *****
+12:41:08.282 [main] INFO  - **** Starting TC_003_LoginDDT *****
+12:41:08.392 [main] INFO  - **** Starting TC_003_LoginDDT *****
+12:41:08.439 [main] INFO  - **** Starting TC_003_LoginDDT *****
+20:35:46.437 [main] INFO  - [TestNG] Running:
+  E:\JavawithAutomation\OpenCartTestNGFramework\master.xml
+
+20:35:52.156 [main] INFO  - Using chromedriver 143.0.7499.169 (resolved driver for Chrome 143)
+20:35:52.618 [main] INFO  - Downloading https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.169/win64/chromedriver-win64.zip
+20:36:01.753 [main] INFO  - Extracting driver from compressed file chromedriver-win64.zip
+20:36:02.062 [main] INFO  - Exporting webdriver.chrome.driver as C:\Users\tztej\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe
+20:36:27.044 [main] INFO  - **** Starting TC_003_LoginDDT *****
+20:36:41.639 [main] INFO  - **** Finished TC_003_LoginDDT *****
+20:36:41.687 [main] INFO  - **** Starting TC_003_LoginDDT *****
+20:36:47.994 [main] INFO  - **** Starting TC_003_LoginDDT *****
+20:36:52.490 [main] INFO  - **** Starting TC_003_LoginDDT *****
+20:37:03.645 [main] INFO  - **** Finished TC_003_LoginDDT *****
+20:37:03.660 [main] INFO  - **** Starting TC_003_LoginDDT *****
+20:37:09.190 [main] INFO  - **** Finished TC_003_LoginDDT *****
+20:37:09.203 [main] INFO  - **** Starting TC_003_LoginDDT *****
+20:37:15.634 [main] INFO  - **** Finished TC_003_LoginDDT *****
+20:52:00.474 [main] INFO  - [TestNG] Running:
+  E:\JavawithAutomation\OpenCartTestNGFramework\master.xml
+
+20:52:05.943 [main] INFO  - Using chromedriver 143.0.7499.169 (resolved driver for Chrome 143)
+20:52:06.612 [main] INFO  - Exporting webdriver.chrome.driver as C:\Users\tztej\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe
+20:53:14.228 [main] INFO  - **** Starting TC_003_LoginDDT *****
+20:53:28.365 [main] INFO  - **** Finished TC_003_LoginDDT *****
+20:53:28.427 [main] INFO  - **** Starting TC_003_LoginDDT *****
+20:53:33.817 [main] INFO  - **** Starting TC_003_LoginDDT *****
+20:53:38.139 [main] INFO  - **** Starting TC_003_LoginDDT *****
+20:53:49.380 [main] INFO  - **** Finished TC_003_LoginDDT *****
+20:53:49.397 [main] INFO  - **** Starting TC_003_LoginDDT *****
+20:53:53.227 [main] INFO  - **** Finished TC_003_LoginDDT *****
+20:53:53.256 [main] INFO  - **** Starting TC_003_LoginDDT *****
+20:53:56.431 [main] INFO  - **** Finished TC_003_LoginDDT *****
+20:59:21.841 [main] INFO  - [TestNG] Running:
+  E:\JavawithAutomation\OpenCartTestNGFramework\master.xml
+
+20:59:23.296 [main] INFO  - Using chromedriver 143.0.7499.169 (resolved driver for Chrome 143)
+20:59:23.386 [main] INFO  - Exporting webdriver.chrome.driver as C:\Users\tztej\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe
+21:00:00.696 [main] INFO  - **** Starting TC_003_LoginDDT *****
+21:00:18.177 [main] INFO  - **** Finished TC_003_LoginDDT *****
+21:00:18.231 [main] INFO  - **** Starting TC_003_LoginDDT *****
+21:00:23.830 [main] INFO  - **** Starting TC_003_LoginDDT *****
+21:00:28.821 [main] INFO  - **** Starting TC_003_LoginDDT *****
+21:00:40.879 [main] INFO  - **** Finished TC_003_LoginDDT *****
+21:00:40.895 [main] INFO  - **** Starting TC_003_LoginDDT *****
+21:00:46.122 [main] INFO  - **** Finished TC_003_LoginDDT *****
+21:00:46.126 [main] INFO  - **** Starting TC_003_LoginDDT *****
+21:00:50.025 [main] INFO  - **** Finished TC_003_LoginDDT *****
+21:03:19.286 [main] INFO  - [TestNG] Running:
+  E:\JavawithAutomation\OpenCartTestNGFramework\master.xml
+
+21:03:20.661 [main] INFO  - Using chromedriver 143.0.7499.169 (resolved driver for Chrome 143)
+21:03:20.764 [main] INFO  - Exporting webdriver.chrome.driver as C:\Users\tztej\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe
+21:03:48.895 [main] INFO  - **** Starting TC_003_LoginDDT *****
+21:04:04.004 [main] INFO  - **** Finished TC_003_LoginDDT *****
+21:04:04.020 [main] INFO  - **** Starting TC_003_LoginDDT *****
+21:04:12.215 [main] INFO  - **** Starting TC_003_LoginDDT *****
+21:04:17.209 [main] INFO  - **** Starting TC_003_LoginDDT *****
+21:04:30.422 [main] INFO  - **** Finished TC_003_LoginDDT *****
+21:04:30.427 [main] INFO  - **** Starting TC_003_LoginDDT *****
+21:04:36.431 [main] INFO  - **** Finished TC_003_LoginDDT *****
+21:04:36.445 [main] INFO  - **** Starting TC_003_LoginDDT *****
+21:04:39.830 [main] INFO  - **** Finished TC_003_LoginDDT *****

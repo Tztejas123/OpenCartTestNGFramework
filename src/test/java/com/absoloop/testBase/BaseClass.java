@@ -25,24 +25,26 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 
-	public ResourceBundle rb;// to read config.properties
+	// No more static WebDriver. Use ThreadLocal for parallel
+	// execution safety.
+	private static ThreadLocal<WebDriver> threadLocalDriver = new ThreadLocal<>();
 
-	public Logger logger;// for Logging
+	public ResourceBundle rb; // to read config.properties
+	public Logger logger; // for Logging
 
-	public static WebDriver driver; // make it static so that you can use same instance in Extent report manager
-
-	@BeforeClass(groups = { "Master", "Sanity", "Regression" }) // Step8 groups added
-	@Parameters("browser") // getting browser parameter from testng.xml
+	@BeforeClass(groups = { "Master", "Sanity", "Regression" })
+	@Parameters("browser")
 	public void setup(String br) {
-		rb = ResourceBundle.getBundle("config");// Load config.properties
+		rb = ResourceBundle.getBundle("config"); // Load config.properties
+		logger = LogManager.getLogger(this.getClass()); // for Logger
 
-		logger = LogManager.getLogger(this.getClass());// for Logger
+		WebDriver driver = null; // Local variable first
 
-		// launch right browser based on parameter
-		if (br.equals("chrome")) {
+		// Launch right browser based on parameter
+		if (br.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-		} else if (br.equals("edge")) {
+		} else if (br.equalsIgnoreCase("edge")) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		} else {
@@ -50,15 +52,29 @@ public class BaseClass {
 			driver = new FirefoxDriver();
 		}
 
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		// RUTHLESS FIX 2: Assign the driver to the ThreadLocal container
+		threadLocalDriver.set(driver);
 
-		driver.get(rb.getString("appURL2")); // get url from config.properties file
-		driver.manage().window().maximize();
+		// From now on, use getDriver() instead of 'driver'
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		getDriver().manage().window().maximize();
+
+		getDriver().get(rb.getString("appURL2")); // get url from config.properties file
 	}
 
-	@AfterClass(groups = { "Master", "Sanity", "Regression" }) // Step8 groups added
-	public void teadDown() {
-		driver.quit();
+	@AfterClass(groups = { "Master", "Sanity", "Regression" })
+	public void tearDown() {
+		// RUTHLESS FIX 3: Quit the specific driver for this thread and clean up memory
+		if (getDriver() != null) {
+			getDriver().quit();
+			threadLocalDriver.remove(); // Essential for memory management
+		}
+	}
+
+	// RUTHLESS FIX 4: The global access point for the driver.
+	// Call BaseClass.getDriver() anywhere in your framework.
+	public static WebDriver getDriver() {
+		return threadLocalDriver.get();
 	}
 
 	public String randomeString() {
@@ -74,7 +90,11 @@ public class BaseClass {
 	public String captureScreen(String tname) throws IOException {
 
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+
+		// RUTHLESS FIX 5: Use getDriver() here so screenshots work in parallel
+		// execution
+		TakesScreenshot takesScreenshot = (TakesScreenshot) getDriver();
+
 		File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
 		String destination = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
 
@@ -84,7 +104,5 @@ public class BaseClass {
 			e.getMessage();
 		}
 		return destination;
-
 	}
-
 }

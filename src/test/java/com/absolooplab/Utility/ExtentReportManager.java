@@ -72,19 +72,20 @@ public class ExtentReportManager implements ITestListener {
 	}
 
 	public void onTestFailure(ITestResult result) {
-		test = extent.createTest(result.getTestClass().getName());
-		test.assignCategory(result.getMethod().getGroups());
-
-		test.log(Status.FAIL, result.getName() + " got failed");
-		test.log(Status.INFO, result.getThrowable().getMessage());
-
-		try {
-			String imgPath = new BaseClass().captureScreen(result.getName());
-			test.addScreenCaptureFromPath(imgPath);
-
-		} catch (IOException e1) {
-			e1.printStackTrace();
-		}
+	    test = extent.createTest(result.getTestClass().getName());
+	    test.assignCategory(result.getMethod().getGroups());
+	    test.log(Status.FAIL, result.getName() + " got failed");
+	    
+	    // Capture the full stack trace for debugging
+	    test.log(Status.INFO, result.getThrowable().getMessage());
+	    
+	    try {
+	        // You need to update captureScreen to use BaseClass.getDriver() internally!
+	        String imgPath = new BaseClass().captureScreen(result.getName());
+	        test.addScreenCaptureFromPath(imgPath);
+	    } catch (IOException e1) {
+	        e1.printStackTrace();
+	    }
 	}
 
 	public void onTestSkipped(ITestResult result) {

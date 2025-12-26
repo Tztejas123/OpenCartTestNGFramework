@@ -20,6 +20,7 @@ public class HomePage extends BasePage {
 	WebElement linkLogin;
 
 	public void clickMyAccount() {
+		waitForElementToBeClickable(lnkMyaccount);
 		lnkMyaccount.click();
 	}
 

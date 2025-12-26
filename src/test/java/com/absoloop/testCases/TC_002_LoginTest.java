@@ -17,13 +17,13 @@ public class TC_002_LoginTest extends BaseClass
 		
 		try
 		{				
-			HomePage hp=new HomePage(driver);
+			HomePage hp=new HomePage(getDriver());
 			
 			hp.clickMyAccount();
 						
 			hp.clickLogin();
 			
-			LoginPage lp=new LoginPage(driver);
+			LoginPage lp=new LoginPage(getDriver());
 			
 			lp.setEmail(rb.getString("email")); // valid email, get it from properties file
 			
@@ -31,16 +31,16 @@ public class TC_002_LoginTest extends BaseClass
 			
 			lp.clickLogin();
 			
-			MyAccountPage macc=new MyAccountPage(driver);
+			MyAccountPage macc=new MyAccountPage(getDriver());
 			
 			boolean targetpage=macc.isMyAccountPageExists();
 						
 			Assert.assertEquals(targetpage, true);
 			
 		}	
-		catch(Exception e)
-		{
-			Assert.fail();
+		catch(Exception e){
+			logger.error("Test Failed: ", e); 
+			Assert.fail("Test failed: " + e.getMessage());
 		}
 		logger.info(" Finished TC_002_LoginTest");
 		
