@@ -1,0 +1,19 @@
+# Maven build output
+target/
+test-output/
+
+# Compiled files
+*.class
+
+# Logs & reports
+logs/
+reports/
+screenshots/
+
+# IDE / OS junk
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+*.iml
